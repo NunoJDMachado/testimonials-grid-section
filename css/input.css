@@ -5,3 +5,7 @@
 @theme {
     --font-barlow-semi-condensed: "Barlow Semi Condensed", sans-serif;
 }
+
+.card {
+    @apply flex flex-col gap-4 rounded-lg font-[500] px-8 py-6 sm:px-6 md:px-8;
+}
